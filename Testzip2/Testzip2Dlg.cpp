@@ -419,3 +419,7 @@ void CTestzip2Dlg::OnBnClickedRaruz()
 }
 
 
+int CTestzip2Dlg::test1()
+{
+	return 11;
+}

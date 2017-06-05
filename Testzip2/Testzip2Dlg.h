@@ -20,6 +20,8 @@ public:
 
 	DWORD DoCreateProcessHandle_WaitMsg(CString sAppsPath, CString sAppsPar, int dlg_flags, int nTimes, CString& csMsg, CString csCommandKey);
 
+private:
+	int test1();
 
 // й╣ож
 protected:
