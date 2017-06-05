@@ -22,6 +22,7 @@ public:
 
 private:
 	int test1();
+	int test2();
 
 // й╣ож
 protected:
