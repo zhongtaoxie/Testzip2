@@ -28,6 +28,7 @@ private:
 	int test5();
 	int test6();
 	int test7();
+	int test8();
 
 
 protected:
