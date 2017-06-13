@@ -24,6 +24,7 @@ private:
 	int test1();
 	int test2();//zhongguoren
 	int test3();
+	int test4();
 
 
 protected:
