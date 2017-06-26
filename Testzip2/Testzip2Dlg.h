@@ -30,6 +30,7 @@ private:
 	int test7();
 	int test8();
 	int SendEx();
+	int recvEx();
 
 protected:
 	HICON m_hIcon;
