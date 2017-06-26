@@ -29,7 +29,7 @@ CTestzip2App::CTestzip2App()
 
 // 唯一的一个 CTestzip2App 对象
 
-CTestzip2App theApp;
+//CTestzip2App theApp;
 
 
 // CTestzip2App 初始化
