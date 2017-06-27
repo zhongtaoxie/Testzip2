@@ -23,6 +23,7 @@ public:
 // ÷ÿ–¥
 	public:
 	virtual BOOL InitInstance();
+	int sfsf();
 
 //  µœ÷
 
