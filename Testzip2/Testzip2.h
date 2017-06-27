@@ -25,6 +25,9 @@ public:
 	virtual BOOL InitInstance();
 	int sfsf();
 	int sfsf()2;
+	int test();
+	int test3();
+
 
 // й╣ож
 
