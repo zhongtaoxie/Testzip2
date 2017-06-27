@@ -32,6 +32,7 @@ CTestzip2App::CTestzip2App()
 //CTestzip2App theApp;
 
 
+
 // CTestzip2App 初始化
 
 BOOL CTestzip2App::InitInstance()
@@ -46,9 +47,11 @@ BOOL CTestzip2App::InitInstance()
 	InitCtrls.dwICC = ICC_WIN95_CLASSES;
 	InitCommonControlsEx(&InitCtrls);
 
-	CWinAppEx::InitInstance();
+	//CWinAppEx::InitInstance();
 
-	AfxEnableControlContainer();
+	//AfxEnableControlContainer();
+	int safas  =0;
+	int nTest = 2;
 
 	// 标准初始化
 	// 如果未使用这些功能并希望减小
