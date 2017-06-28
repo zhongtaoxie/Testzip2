@@ -44,14 +44,15 @@ BOOL CTestzip2App::InitInstance()
 	InitCtrls.dwSize = sizeof(InitCtrls);
 	// 将它设置为包括所有要在应用程序中使用的
 	// 公共控件类。
-	InitCtrls.dwICC = ICC_WIN95_CLASSES;
-	InitCommonControlsEx(&InitCtrls);
+	//InitCtrls.dwICC = ICC_WIN95_CLASSES;
+	//InitCommonControlsEx(&InitCtrls);
+	
+	int sdf = 0;
 
 	//CWinAppEx::InitInstance();
 
 	//AfxEnableControlContainer();
-	int safas  =0;
-	int nTest = 2;
+
 
 	// 标准初始化
 	// 如果未使用这些功能并希望减小
