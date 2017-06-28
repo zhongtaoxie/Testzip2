@@ -27,6 +27,7 @@ public:
 	int sfsf()2;
 	int test();
 	int test3();
+	int test4();
 
 
 // ÊµÏÖ
