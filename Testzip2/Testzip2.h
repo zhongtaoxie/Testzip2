@@ -24,10 +24,13 @@ public:
 	public:
 	virtual BOOL InitInstance();
 	int sfsf();
-	int sfsf()2;
-	int test();
-	int test3();
-	int test4();
+	//int sfsf()2;
+	//int test();
+	//int test3();
+	//int test4();
+	
+	int sfsaf();
+	
 
 
 // й╣ож
