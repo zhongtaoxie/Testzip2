@@ -7,5 +7,6 @@
 CUEBAMonitorCmd::CUEBAMonitorCmd(void)
 {
 	int asdf = 0;
+	int we=0;
 }
 
