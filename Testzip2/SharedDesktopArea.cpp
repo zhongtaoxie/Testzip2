@@ -141,6 +141,8 @@ void SharedDesktopArea::Validate()
 	} else {
 		m_pMatchWindow->Hide();
 	}
+	
+	asdfasf;
 
 	LPCSTR info = NULL;
 
@@ -182,6 +184,7 @@ bool SharedDesktopArea::Apply()
 				 MB_OK | MB_ICONEXCLAMATION);
 		return false;
 	}
+	int asfda;
 
 	m_server->FullScreen(IsChecked(IDC_FULLSCREEN));
 	m_server->PrimaryDisplayOnlyShared(IsChecked(IDC_PRIMARY_DISPLAY_ONLY));
