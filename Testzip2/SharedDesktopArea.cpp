@@ -237,9 +237,7 @@ LRESULT CALLBACK SharedDesktopArea::BmpWndProc(HWND hWnd, UINT message, WPARAM w
 		hOldImage = (HBITMAP)::SendMessage(hWnd, STM_SETIMAGE, IMAGE_BITMAP, (LPARAM)hNewImage);
 		DeleteObject(hOldImage);
 		hNewCursor = LoadCursor(hAppInstance, MAKEINTRESOURCE(IDC_ARROW));
-		hOldCursor = SetCursor(hNewCursor);
-		DestroyCursor(hOldCursor);
-		pDialog->m_bCaptured = FALSE;
+	
 		break;
 	
 	case WM_MOUSEMOVE:
