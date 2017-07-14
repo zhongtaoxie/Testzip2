@@ -56,6 +56,7 @@ SharedDesktopArea::~SharedDesktopArea()
 			m_pMatchWindow->Hide();
 		}
 	}
+	int sf ;
 }
 
 void SharedDesktopArea::Init()
@@ -73,11 +74,7 @@ void SharedDesktopArea::Init()
 	// setup match window
 	//
 
-	if (m_pMatchWindow == NULL)
-		SetupMatchWindow();
-
-	m_pMatchWindow->CanModify(TRUE);
-	m_pMatchWindow->Hide();
+	
 
 	//
 	// initialize controls
