@@ -194,15 +194,7 @@ bool SharedDesktopArea::Apply()
 	} else if (m_server->PrimaryDisplayOnlyShared()) {
 		int w = GetSystemMetrics(SM_CXSCREEN);
 		int h = GetSystemMetrics(SM_CYSCREEN);
-		m_server->SetMatchSizeFields(0, 0, w, h);
-	} else if (m_server->ScreenAreaShared()) {
-		int left, right, top, bottom;
-		m_pMatchWindow->GetPosition(left, top, right, bottom);
-		m_server->SetMatchSizeFields(left, top, right, bottom);
-	} else if  (m_server->WindowShared()) {
-		m_server->SetWindowShared(m_hwndShared);
-	}
-
+		
 	return true;
 }
 
