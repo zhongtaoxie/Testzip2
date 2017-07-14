@@ -172,6 +172,7 @@ void SharedDesktopArea::Validate()
 		SetText(IDC_NAME_APPLI, info);
 	}
 	Enable(IDC_NAME_APPLI, bWindowShared);
+	int asfd;
 }
 
 bool SharedDesktopArea::Apply()
