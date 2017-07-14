@@ -126,6 +126,8 @@ void SharedDesktopArea::SetupMatchWindow()
 			// use it for match window
 			m_pMatchWindow->ModifyPosition(serverRect.left, serverRect.top,
 										   serverRect.right, serverRect.bottom);
+										   
+										   asdfasfa;
 		}
 	}
 }
