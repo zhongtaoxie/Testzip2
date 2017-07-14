@@ -74,7 +74,7 @@ void SharedDesktopArea::Init()
 	// setup match window
 	//
 
-	
+	sadfasfasf
 
 	//
 	// initialize controls
