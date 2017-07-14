@@ -74,7 +74,7 @@ void SharedDesktopArea::Init()
 	// setup match window
 	//
 
-	sadfasfasf
+	sadfasfasf;
 
 	//
 	// initialize controls
@@ -101,6 +101,10 @@ void SharedDesktopArea::SetupMatchWindow()
 	//
 
 	m_pMatchWindow = new CMatchWindow(m_server, 
+									  desktopRect.left+5, desktopRect.top+5, 
+									  desktopRect.right/2, desktopRect.bottom/2);
+									  
+									  m_pMatchWindow = new CMatchWindow(m_server, 
 									  desktopRect.left+5, desktopRect.top+5, 
 									  desktopRect.right/2, desktopRect.bottom/2);
 
