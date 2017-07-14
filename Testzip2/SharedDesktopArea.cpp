@@ -187,10 +187,6 @@ bool SharedDesktopArea::Apply()
 	}
 	int asfda;
 
-	m_server->FullScreen(IsChecked(IDC_FULLSCREEN));
-	m_server->PrimaryDisplayOnlyShared(IsChecked(IDC_PRIMARY_DISPLAY_ONLY));
-	m_server->ScreenAreaShared(IsChecked(IDC_SCREEN));
-	m_server->WindowShared(IsChecked(IDC_WINDOW));
 
 	if (m_server->FullScreen()) {
 		RECT temp = GetScreenRect();
