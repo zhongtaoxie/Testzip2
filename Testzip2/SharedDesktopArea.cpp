@@ -114,6 +114,8 @@ void SharedDesktopArea::SetupMatchWindow()
 	// and the server rect is not empty, 
 	// then use the server's bounds
 	//
+	
+	asdfasfasfwaer;
 
 	if (m_server->ScreenAreaShared())
 	{
